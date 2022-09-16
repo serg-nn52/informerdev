@@ -59,7 +59,7 @@
     left: 0;
     top: 50%;
     display: flex;
-    transform: translateY(-50%);
+    transform: translateY(-20%);
     justify-content: space-between;
     width: 100%;
     padding: 0 25px;
@@ -132,16 +132,18 @@
       }
       &__title {
         margin-top: 10px;
+        margin-bottom: 0;
         padding: 0 10px;
         font-size: 2.4rem;
         font-weight: bold;
         color: $darkgrey-font;
       }
       &__description {
-        margin-top: 10px;
+        margin-top: 5px;
         padding: 0 10px;
         font-size: 1.2rem;
         font-weight: 300;
+        line-height: 1;
         color: $darkgrey-font;
         span {
           font-size: 1.2rem;

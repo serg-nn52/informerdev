@@ -1,5 +1,5 @@
 {
-  "name": "pulse",
+  "name": "task",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000P\u0000u\u0000l\u0000s\u0000e\u0000\r\u0000 \u0000",
   "main": "gulpfile.js",
@@ -34,7 +34,6 @@
     "sass": "^1.43.4"
   },
   "dependencies": {
-    "mburger-css": "^2.0.0",
     "tiny-slider": "^2.9.4"
   }
 }

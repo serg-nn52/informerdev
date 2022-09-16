@@ -6,12 +6,16 @@
 @import "./blocks/header";
 @import "./blocks/main";
 @import "./blocks/footer";
+@import "./blocks/popup";
 body,
 * {
   font-family: $main-font;
   font-weight: 400;
   font-size: 10px;
   padding: 0;
+  transition-duration: 0s;
+}
+* {
   transition-duration: 0.3s;
 }
 a {
@@ -20,15 +24,6 @@ a {
 }
 li {
   list-style: none;
-}
-
-//убираю стрелочки у input type='number'
-input[type="number"] {
-  -moz-appearance: textfield;
-}
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
 }
 
 .disable {
@@ -45,4 +40,8 @@ input::-webkit-inner-spin-button {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.error {
+  border: 2px solid $red !important;
 }
