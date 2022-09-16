@@ -17,7 +17,6 @@ const removeValues = () => {
 
 const removeErrors = () => {
   const errors = [...document.querySelectorAll(".error")];
-  console.log(errors);
   errors.forEach((el) => el.classList.remove("error"));
 };
 
