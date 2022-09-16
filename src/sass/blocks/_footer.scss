@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  background-color: $bg-second;
+  @include media-breakpoint-down(ssm) {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  &__left {
+    font-size: 1.6rem;
+    color: $footer-font;
+    span {
+      font-size: 1.6rem;
+      color: $footergray-font;
+    }
+  }
+  &__contact {
+    font-size: 1.6rem;
+    color: $footer-font;
+    background-color: inherit;
+    border: none;
+    &:hover {
+      color: lighten($footer-font, 10%);
+    }
+  }
+}
