@@ -39,7 +39,6 @@ for (let i = 0; i < controls.length; i++) {
         controls: true,
         items: 4,
       },
-      1120: {},
     },
   });
 }
@@ -92,5 +91,7 @@ popup.addEventListener("click", (e) => {
     document.body.classList.remove("freeze");
     removeValues();
     removeErrors();
+    popupTitle.innerText = "Contact us";
+    popupTitle.style = "";
   }
 });
